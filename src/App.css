@@ -1,0 +1,48 @@
+*{
+  font-size: 25px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  width: 30vw;
+}
+
+.count h2{
+  height: 20vh;
+  line-height: 20vh;
+}
+
+.decrement, .increment, .reset{
+  cursor: pointer;
+  display: inline;
+  padding: 3%;
+  text-align: center;
+}
+
+.header{
+  background-color: grey;
+  padding: 3%;
+}
+
+.increment{
+  background-color: green;
+}
+
+.increment i{
+  font-size: 40px;
+}
+
+.reset{
+  background-color: yellow;
+}
+
+.decrement{
+  background-color: red;
+}
